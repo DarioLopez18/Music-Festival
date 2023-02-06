@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock & EDM Festival</h2>
+                <p>Julio 2023 Mendoza,Argentina</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src = "video/concierto.mp4" type = "video/mp4">
+            <source src = "video/concierto.ogg" type = "video/ogg">
+            <source src = "video/concierto.webm" type = "video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif" alt="imagen vocalista">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp" alt="imagen vocalista">
+                <img loading="lazy" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">Julio 2023, Mendoza Argentina</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum veniam repellat soluta, aliquam minus fuga mollitia facilis, sed, quos voluptatum ducimus numquam ipsa quaerat dolorem ab id minima deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit optio odit eius quas maxime possimus, sunt eum doloremque rerum sed dicta error consequatur obcaecati iusto? Perspiciatis ex rerum placeat veniam.</p>
+        </div>
+    </section>
+
+    <section id = "lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 21</p>
+        <div class="escenarios-contenedores contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Deadmau5</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="dia">Sábado 22</p>
+        <div class="escenarios-contenedores contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <section id = "galeria" class="galeria contenedor">
+        <h3 class="galeria">Galeria</h3>
+        <ul class="galeria-imagenes">
+
+        </ul>
+    </section>
+
+    <section id = "boletos" class = 'boletos bg-verde'>
+        <h3>Boletos</h3>
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p> 
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+            <div class="premiun pase">
+                <p class="nombre-pase">Pase 2 días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camisa del evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$180</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>Rock & EDM Festival. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+
+</body>
+</html>
+
+<!--
+    Para poder trabajar con Gulp Y SASS hay que crear un archivo package.json
+    Para eso abrimos la terminal y con el comando npm init nos hace una serie de preguntas y crea el archivo package.json
+    Este archivo sirve para ejecutar comandos de npm pero también para instalar las dependencias de npm. Npm es una librería muy grande
+    de dependencias. Aquí podemos tener una serie de scripts (acciones que se van a ejecutar)
+-->
+
+<!--
+    Debemos ahora instalar la dependencia de SASS que tiene toda la base del conocimiento del mismo, va a detectar los archivos .sass
+    y compilarlos, en caso de que haya un error alertará.
+    npm install sass para instalar la dependencia
+    Existen dos tipos de dependencias en el package.json unas son las dependencias y otras las dependencias de desarrollo.
+    Una vez que se< hace el deployment las dependencias son instaladas por el navegador si este soporta node.js En cambio las dependencias
+    de desarrollo no serán instaladas pero se pueden tener localmente.
+    Para instalar la dependencia de desarrollo
+    npm install sass --save-dev
+-->
+
+<!--El archivo package.json tiene las referencias a las dependencias,pero las dependencias se va a instalar en la carpeta node modules,
+el package lock tiene las dependencias de las dependencias. Instalas SASS pero SASS necesita mas cosas entonces crea este archivo. Que no
+debe modificarse.
+Node modules es una carpeta que una vez finalizado un proyecto se puede eliminar tranquilamente porque es algo que se puede recuperar fácil
+con el package.json
+npm install ->escribiendo esto recupera node modules.
+-->
+
+<!--
+    Algunas dependencias tienen un binario que se puede compilar desde npm.
+    Creamos dos carpetas: una de source (src) y otra de scss y dentro de esta un archivo principal llamado app.scss
+-->
+
+<!--Para enlazar la hoja de scss no podemos hacerlo como lo hacíamos antes a través de un link porque el navegador no la conoce
+    entonces tenemos que compilarlo antes. Para eso tenemos que ir a los scripts del package.json En el script lo agregamos
+-->
+
+<!--
+    "scripts": {
+        "sass": "sass src/scss:build"
+    },
+  esto lo que hace es ejecutar el binario de sass (porque existe), primero le decimos que es el de sass 
+  y luego donde están los archivos de sass que tiene que ir a buscar, y luego que lo guarde en la carpeta build
+  luego para poder ejecutarlo usamos el comando npm run sass
+-->
+
+<!--
+        <link rel="stylesheet" href="build/app.css">
+        luego tengo que enlazar el archivo de css en la carpeta build 
+-->
+
+<!--
+    Ahora como debe ser compilado,cada vez que hago un cambio debo volver a compilar. Para eso podemos utilizar un wacht que se encarga
+    básicamente de estar escuchando los cambios y volverse a ejecutar,y volverse a ejecutar.    "sass": "sass --watch ssrc/scss:build/css"
+-->
+
+<!--
+    Tambien podemos compilar SASS utilizando gulp. Para ello creamos un archivo llamado gulpfile que es el que nos permite de alguna manera
+    configurar gulp. Se puede compilar sass,minificar imágenes,cambiar formatos etc.Para eso necesitamos un workflow que automatice las tareas
+    para eso gulp es una de las mejores opciones.
+    Para instalar gulp
+    npm install gulp --save-dev 
+    npm i -D gulp y creamos el archivo gulpfile.js Va a ser el contenedor de nuestras tareas.
+    npx nos permite ejecutar paquetes sin tener que instalarlos globalmente.
+-->
+
+<!--
+npm run tarea
+npx gulp tarea
+-->
+
+<!--Para hacer la conversión de nuestras imágenes a formato webp con gulp debemos instala una 
+dependecia de desarrollador npm i -D gulp-webp-->
+
+<!--En gul podemos llamar varias tareas al mismo tiempo
+cuando lo hacemos en serie se van a ejecutar varias tareas una tras otras
+mientras que con parallel todas al mismo tiempo-->
+
+<!-- npm i -D gulp-imagemin@7.1.0 Es una dependencia que sirve para aligerar imágenes-->
+
+<!--npm i -D gulp-avif es una dependencia de desarrollo para crear imágenes avif-->
+
+<!--Una vez que minificamos el código perdemos la referencia entonces tenemos que
+usar source map npm i -D gulp-sourcemaps-->
